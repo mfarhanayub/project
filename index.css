@@ -1,0 +1,529 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+  
+}
+/* ----navbar----- */
+
+.nav-item a{
+    font-family: 'poppins';
+    font-size: medium;
+    color:black;
+    margin-left: 5px;
+
+}
+
+.nav-item a:hover{
+    color: gray;
+}
+.dropdown-item{
+
+color: black;
+}
+.dropdown-item:hover{
+  
+    color:gray;
+   width: 90%;
+}
+.btn{
+    background-color: black;
+    color: white;
+    margin-left: 2%;
+    padding: 10px 30px;
+
+}
+.btn:hover{
+    background-color: gray;
+    transform: scale(1.1);  
+}
+.navbar-brand{
+    font-family: serif;
+    font-size: 40px;
+    color: black;
+}
+.active-links{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    background-color:  black;
+   
+    
+    
+}
+
+.active-links a{
+    color: white!important;
+}
+.active-links a:hover{
+    color: gray !important;
+}
+/* ------------------- */
+/* carousel */
+
+.carousel-caption{
+    margin-bottom: 15%;
+    text-align: center;
+    
+}
+.carousel-item{
+    text-align: center;
+}
+/* ------------ */
+
+ /* ------head1----- */
+ .media{
+    background-color: gainsboro;
+    text-align: center;
+    width: 100%;
+    
+ }
+ .res{
+    text-align: center;  
+   transition: 1s;
+}
+
+.res:hover{
+   transform: scale(1.1);
+}
+.head2{
+    font-family: 'roboto';
+    text-align: justify;
+    font-size: large;
+}
+.head21{
+    height: 397px;
+    width: 100%;
+}
+ 
+.media1{
+    background-color: gainsboro;
+}
+
+.text{
+   
+    font-family: 'Poppins';
+    font-size: medium;
+    font-weight: bold;
+}
+.shade::before {
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000000ae;
+    opacity: 1;
+
+}
+/* ---------- */
+.te{
+   
+    font-family: 'Roboto';
+    font-size: medium;
+}
+.top{
+    transition: 1s;
+}
+.top:hover{
+    transform: scale(1.2);
+}
+/* testimonials */
+.ti {
+    border-radius: 50%;
+   margin: auto;
+}
+.tex{
+   
+    font-family:'Roboto';
+    color: gray;
+}
+.texh{
+   
+    font-weight: bold;
+    font-family: 'Poppins';
+    
+}  
+/* -------------- */
+
+
+.f{
+    font-family: serif;
+    font-size: 40px;
+    color: white;
+}
+
+.colf{
+    margin: 100px 40px 0 00px;
+   
+}
+.colf1{
+    margin: 100px 0px 0 -10px;
+
+}
+
+.colf2{
+    margin: 100px 0 0 -11px;    
+   
+}
+
+
+.fp{
+    color: white;
+    margin: -25px 0 0 25px;
+    font-size: small;
+}
+.colf4{
+    margin: 100px 0 0 -19px;
+ 
+}
+.icon{
+    
+        color: gray;
+        background-color: #1f1f24;
+        margin: 12px 0 0 15px;
+        border-radius: 50%;
+        border: solid gray;
+        padding: 5px 7px 5px 7px;
+    
+}
+
+
+.tcol{
+    margin: auto;
+}
+/* footer */
+.fa{
+    color: white;
+    margin-right: 10px;
+}
+.fa-twitter{
+    color: white;
+    background-color: #1f1f24;
+    border-radius: 50%;
+    border: solid white;
+    padding: 6px 6px 6px 6px;
+  margin-left: 10px;
+}
+.fa-twitter:hover{
+    color: gray;
+    border: solid gray;
+    transform: scale(1.2);
+}
+.fa-instagram{
+    color: white;
+    background-color: #1f1f24;
+    border-radius: 50%;
+    border: solid white;
+    padding: 6px 6px 6px 6px;
+  margin-left: -7px;
+}
+.fa-instagram:hover{
+    color: gray;
+    border: solid gray;
+    transform: scale(1.2);
+}
+.fa-facebook{
+    color: white;
+    background-color: #1f1f24;
+    border-radius: 50%;
+    border: solid white;
+    padding: 6px 9px 6px 9px; 
+    margin-right: -7px; 
+}
+.fa-facebook:hover{
+    color: gray;
+    border: solid gray;
+    transform: scale(1.2);
+}
+.fa-linkedin {
+    color: white;
+    background-color: #1f1f24;
+    border-radius: 50%;
+    border: solid white;
+    padding: 6px 6px 6px 6px; 
+    margin-left: -7px;
+}
+.fa-linkedin:hover{
+    color: gray;
+    border: solid gray;
+    transform: scale(1.2);
+}
+.footer-a {
+    color: white;
+    text-decoration: none;
+}
+.footer-a:hover{
+    color: gray;
+}
+
+
+/* ---about us----- */
+.banner{
+    font-family: 'poppins';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.layer{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(2, 2, 2, 0.5);
+    }
+    .about{
+        position: relative;
+    }
+.res1{
+    text-align: center;
+    background-color: white;
+   
+}
+.heads22{
+width: 100%;
+height: 100%;
+}
+
+.heads{
+    font-family: 'roboto';
+    text-align: justify;
+    font-size: large;
+}
+.medias{
+    background-color: gainsboro;
+    text-align: center;
+    width: 100%;
+ }
+ 
+
+.head23{
+    width: 100%;
+    height: 470px;  
+}
+/* ---------details button------------ */
+.deta{
+    margin: 0 100px 0 100px;
+}
+/* ---------- */
+/* --details--- */
+.dh1{
+    font-family: 'poppins';
+    font-size:xx-large;
+    text-align: justify;
+}
+.dht{
+    font-family: 'Roboto';
+}
+.detimg{
+    height: 400px;
+    width: 350px;
+}
+.detimg:hover{
+    transform: scale(1.1);
+}
+/* ------ */
+   
+    
+/* -----faq-- */
+.accordion-button{
+font-family: 'poppins';
+}
+.accordion-button:hover{
+    background-color: white;
+    border: solid black;
+    color: black;
+}
+.accordion-body{
+    font-family: 'Roboto';
+}
+/* sign in */
+  /* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.container1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 30px;
+}
+.form{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+}
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+
+form{
+    margin-top: 30px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: white;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+   color: white;
+    background-color: black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: gray;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook{
+    color: #fff;
+    background-color: black;
+}
+a.facebook .facebook-icon{
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.facebook-icon,
+img.google-img{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+   
+}
+img.google-img{
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+  border-radius: 50%;
+}
+a.google{
+    border: 50% solid #CACACA;
+    background-color: black;
+  
+}
+a.google span{
+    font-weight: 500;
+ 
+    color: white;
+}
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
+    }
+    
+}
+.bg-container{
+    box-shadow: 10px 15px 25px black;
+    border-radius: 5%;
+}
+.login-background{
+    background-image: url(back1.webp);
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
